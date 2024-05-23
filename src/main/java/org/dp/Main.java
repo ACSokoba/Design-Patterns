@@ -1,14 +1,12 @@
-package org.example;
+package org.dp;
 
-import org.example.factory.Dish;
-import org.example.factory.DishFactory;
-import org.example.factory.PizzaFactory;
-import org.example.factory.SandwichFactory;
-import org.example.singleton.Singleton;
-import org.example.strategy.Article;
-import org.example.strategy.CreditCardPaymentStrategy;
-
-import java.util.Arrays;
+import org.dp.factory.Dish;
+import org.dp.factory.DishFactory;
+import org.dp.factory.PizzaFactory;
+import org.dp.factory.SandwichFactory;
+import org.dp.singleton.Singleton;
+import org.dp.strategy.Article;
+import org.dp.strategy.CreditCardPaymentStrategy;
 
 public class Main {
     public static void main(String[] args) {

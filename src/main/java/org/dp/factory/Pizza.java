@@ -1,4 +1,4 @@
-package org.example.factory;
+package org.dp.factory;
 
 public class Pizza implements Dish{
     @Override

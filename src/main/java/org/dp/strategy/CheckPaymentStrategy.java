@@ -1,4 +1,4 @@
-package org.example.strategy;
+package org.dp.strategy;
 
 public class CheckPaymentStrategy implements PaymentStrategy {
 

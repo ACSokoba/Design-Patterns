@@ -1,4 +1,4 @@
-package org.example.singleton;
+package org.dp.singleton;
 
 public class Singleton {
     private String name;
