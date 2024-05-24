@@ -1,5 +1,6 @@
 package org.dp;
 
+import org.dp.builder.Person;
 import org.dp.factory.Dish;
 import org.dp.factory.DishFactory;
 import org.dp.factory.PizzaFactory;
@@ -28,5 +29,9 @@ public class Main {
         pizza.prepare();
         sandwich.serve();
         pizza.serve();
+
+        System.out.println("-----Testing builder-----");
+        Person person = Person.builder().name("Joe").age(25).city("Kigali").build();
+        System.out.println(person);
     }
 }
